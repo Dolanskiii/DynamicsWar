@@ -99,6 +99,8 @@ and timeline work with the service in use; the choice is kept between starts. Sw
 possible while a comparison or library check is running. The timeline shows what was compared on
 the service in use.
 
+![Settings: the two services and what is kept on this computer](docs/settings.png)
+
 The library works for both services, with separate result files (`library.json`,
 `library-tidal.json`). On Tidal a run is limited by the delicate requests rather than by albums:
 it ends by itself after about 300 loudness requests and stops at once when Tidal turns one down.
