@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+
+# written by the app while it runs
+debug/
+config.json
