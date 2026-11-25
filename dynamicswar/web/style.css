@@ -457,10 +457,10 @@ dialog .state { color: var(--text); margin-bottom: 10px; }
 .service-head .state i { width: 9px; height: 9px; border-radius: 50%; background: var(--bad); }
 .service-head .state.on i { background: var(--ok); }
 .service-head .state.slow i { background: var(--accent); }
-.facts { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 9px 16px; margin: 0 0 18px; }
-.facts dt { color: var(--faint); font-size: .9rem; padding-top: 1px; }
-.facts dd { margin: 0; color: var(--muted); }
-.facts.wide { grid-template-columns: 170px minmax(0, 1fr); max-width: 980px; background: var(--panel); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 18px 22px; }
+dl.facts { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 9px 16px; margin: 0 0 18px; }
+dl.facts dt { color: var(--faint); font-size: .9rem; padding-top: 1px; }
+dl.facts dd { margin: 0; color: var(--muted); }
+dl.facts.wide { grid-template-columns: 170px minmax(0, 1fr); max-width: 980px; background: var(--panel); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 18px 22px; }
 .facts code { color: var(--text); font-size: .9rem; }
 .service .actions { display: flex; gap: 10px; margin-top: auto; }
 @media (max-width: 1000px) { .services { grid-template-columns: 1fr; } }

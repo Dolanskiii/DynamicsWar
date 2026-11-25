@@ -3,6 +3,10 @@
 Finds the best-sounding edition of an album on Qobuz (and, in a test phase, on Tidal): it compares the dynamics of every
 edition and shows which master wins, and why.
 
+![All editions of an album, ranked by dynamics](docs/compare.png)
+
+*The screenshots show the demo mode (`--demo`) with its invented catalogue.*
+
 ## Read this first
 
 DynamicsWar is a private hobby project. It is not affiliated with, endorsed by or supported by
@@ -61,6 +65,8 @@ this folder.
 The Library tab lists the albums you marked as favourites on Qobuz and checks, on request,
 whether a better master exists. It only reads the library and never changes favourites.
 
+![Library: favourites with a better master available](docs/library.png)
+
 - Tick the albums to check: at most 25 per run, one album after the other, at most 4 requests
   per second (2 in parallel instead of 6, one second between albums).
 - A check is the same comparison as in the search. Result: better master (1 dB or more),
@@ -82,6 +88,8 @@ table view. The entries are kept in `%APPDATA%\DynamicsWar\history.json`; on fir
 reports in `debug/` are read in (and replayed with the current rules), so earlier comparisons
 are there from the start. It shows the best edition available today, not the mastering of
 the time, and only the albums you compared.
+
+![Timeline: dynamics by year of release](docs/timeline.png)
 
 ## Settings and Tidal (test phase)
 
