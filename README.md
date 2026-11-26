@@ -7,7 +7,7 @@ edition and shows which master wins, and why.
 
 *The screenshots show the demo mode (`--demo`) with its invented catalogue.*
 
-## Read this first
+## Read this first:
 
 DynamicsWar is a private hobby project. It is not affiliated with, endorsed by or supported by
 Qobuz, Tidal or Roon; all names belong to their owners.
